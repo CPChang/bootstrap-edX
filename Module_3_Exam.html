@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Submit Album</title>
+		<!-- Using the latest rendering mode for IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Jquery from google, don't place in body, please, or $ is not found may occur in some browser ! -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+		
+	</head>
+	<body> <!-- Line x + 17 -->
+		<form role="form">  <!-- 1: Add class form-horizontal -->
+			<div class="container form-horizontal"> <!-- 2: Add class  -->
+				<div class="form-group">
+					<label for="name" class="control-label col-xs-3">Name:</label>  <!-- 4: Add class control-label -->
+					<div class="col-xs6">
+						<div class="input-group"> <!-- 6: Add class input-group -->
+							<span class="input-group-addon"> <!-- 7: Add class input-group-addon -->
+								<span class="glyphicon glyphicon-user"></span> <!-- 8: Add class glyphicon -->
+							</span>
+							<input type="text" name="name" id="name" class="form-control" /> <!-- 10: Add class form-control -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" ></script>		
+	</body>
+</html>
